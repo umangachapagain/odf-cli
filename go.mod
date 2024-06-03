@@ -7,10 +7,13 @@ require (
 	github.com/red-hat-storage/ocs-operator/api/v4 v4.0.0-20240531053209-95f4c13eb4bf
 	github.com/rook/kubectl-rook-ceph v0.8.1-0.20240327033245-3f07e9fd3059
 	github.com/rook/rook v1.14.3
+	github.com/rook/rook/pkg/apis v0.0.0-20240513003450-39f88521f0fd
 	github.com/spf13/cobra v1.8.0
+	github.com/stretchr/testify v1.9.0
 	k8s.io/apimachinery v0.29.3
 	k8s.io/client-go v0.29.3
 	sigs.k8s.io/controller-runtime v0.17.2
+	sigs.k8s.io/mcs-api v0.1.0
 )
 
 require (
@@ -19,6 +22,7 @@ require (
 	github.com/containernetworking/cni v1.2.0-rc1 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/emicklei/go-restful/v3 v3.12.0 // indirect
+	github.com/evanphx/json-patch v5.9.0+incompatible // indirect
 	github.com/evanphx/json-patch/v5 v5.8.0 // indirect
 	github.com/fatih/color v1.16.0 // indirect
 	github.com/go-jose/go-jose/v4 v4.0.1 // indirect
@@ -65,7 +69,7 @@ require (
 	github.com/noobaa/noobaa-operator/v5 v5.0.0-20240319123706-4ee28d614c7c // indirect
 	github.com/openshift/api v0.0.0-20240328065759-f8aa75d189e1 // indirect
 	github.com/openshift/custom-resource-status v1.1.2 // indirect
-	github.com/rook/rook/pkg/apis v0.0.0-20240513003450-39f88521f0fd // indirect
+	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/ryanuber/go-glob v1.0.0 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect

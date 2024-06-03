@@ -17,4 +17,5 @@ func init() {
 	SetCmd.AddCommand(osdFullRatioCmd)
 	SetCmd.AddCommand(osdBackFillFullRatioCmd)
 	SetCmd.AddCommand(osdNearFullRatioCmd)
+	SetCmd.AddCommand(multiClusterServiceCmd)
 }
